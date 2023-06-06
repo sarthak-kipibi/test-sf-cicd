@@ -6,6 +6,7 @@ select
  COL1,
  COL2
 from FIRST_TABLE_CICD;
+
 /* adding the view into datashare for secondary account
  * first switching to role which has privileges to adding objects  into share
  * then adding grant
