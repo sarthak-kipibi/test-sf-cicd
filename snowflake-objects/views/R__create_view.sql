@@ -11,5 +11,3 @@ from FIRST_TABLE_CICD;
  * first switching to role which has privileges to adding objects  into share
  * then adding grant
  */
--- USE ROLE {{ sharing_role }}_{{ env }};
--- GRANT SELECT ON VIEW V_MY_VIEW TO SHARE MY_DATASHARE_{{ env }};
